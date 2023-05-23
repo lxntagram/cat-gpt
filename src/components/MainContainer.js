@@ -10,21 +10,21 @@ export const MainContainer = ({onSubmitHandler, onChangeHandler, onExampleHandle
         <div className="table-container">
             <div className="table-column examples">
                 <TableHeading>Examples</TableHeading>
-                <TableBlock onExampleHandler={onExampleHandler}>"Explain how cats become software developers"</TableBlock>
-                <TableBlock onExampleHandler={onExampleHandler}>"Got any gift ideas for a cat's 13th birthday?"</TableBlock>
-                <TableBlock onExampleHandler={onExampleHandler}>"How do you make API requests using CatScript?"</TableBlock>
+                <TableBlock onExampleHandler={onExampleHandler}>"고양이들이 어떻게 개발자가 되는지 설명해봐"</TableBlock>
+                <TableBlock onExampleHandler={onExampleHandler}>"13번째 고양이 생일선물을 추천해줄수 있니?"</TableBlock>
+                <TableBlock onExampleHandler={onExampleHandler}>"냥냥프로그래밍 언어로 API 리퀘스트로 보내는 법을 얼려줘?"</TableBlock>
             </div>
             <div className="table-column">
-                <TableHeading>Capabilities</TableHeading>
-                <TableBlock>Answer questions related to Clawenforcement</TableBlock>
-                <TableBlock>An absolutely amazing meowsician</TableBlock>
-                <TableBlock>Unlimited pawerrrr</TableBlock>
+                <TableHeading>한계성</TableHeading>
+                <TableBlock>답변된 내용은 모두 냥냥포럼과 관련되었습니다</TableBlock>
+                <TableBlock>난 대단한 고양이댜옹!</TableBlock>
+                <TableBlock>무제한 파월ㄹㄹㄹㄹ</TableBlock>
             </div>
             <div className="table-column">
-                <TableHeading>Limitations</TableHeading>
-                <TableBlock>May occasionally shit on your bed</TableBlock>
-                <TableBlock>May occasionally cause a cat-astrophe</TableBlock>
-                <TableBlock>Limited knowledge of the world and cat events after 2021</TableBlock>
+                <TableHeading>제한</TableHeading>
+                <TableBlock>사고적으로, 고양이가 책상의 컵을 떨어트릴 수 있다.</TableBlock>
+                <TableBlock>고양이-오류가 있을 수 있다</TableBlock>
+                <TableBlock>2021년 고양이 년도 이후로 학습이 되지 않았다</TableBlock>
             </div>
             
         </div>
