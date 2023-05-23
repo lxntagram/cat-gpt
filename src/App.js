@@ -9,11 +9,12 @@ function App() {
   const [message, setMessage] = useState("");
   const [question, setQuestion] = useState([]);
   const POSSIBLE_ANSWERS = [
-    "meow ",
-    "meowwww meow?? meow meow meow! ",
-    "meow meow, meow meow meow! meow meow meow meow meow? ",
-    "meow meow meow! ",
-    "meow meowww meow MEOW meow meow meow! ",
+    "냐옹 ",
+    "냐 ",
+    "냐아아아 옹?? 냥 냥 냥! ",
+    "냥냥, 냐오옹!! 냥냥냥.. 냥냥? ",
+    "냐오오오옹! ",
+    "냐옹옹 냐오오오오오옹!! 🤣",
   ]
 
   const input = document.querySelector("input");
